@@ -88,6 +88,11 @@ function setup
   mv configfile/.tmux.conf ~/ 
   mv configfile/config.fish ~/.config/fish/ 
   rm -rf configfile
+  git clone https://github.com/powerline/fonts.git
+  cd fonts
+  ./install.sh
+  cd ../
+  rm -rf ./fonts
 end
 
 function ide
