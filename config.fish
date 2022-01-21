@@ -83,7 +83,7 @@ function setup
   curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
   fisher install jethrokuan/z && fisher install decors/fish-ghq && fisher install 0rax/fish-bd && fisher install oh-my-fish/plugin-balias && fisher install oh-my-fish/plugin-expand && fisher install oh-my-fish/plugin-peco && fisher install simnalamburt/shellder && fisher install oh-my-fish/theme-bobthefish
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 
-  git clone https://github.com/HaradaKazunari/configfile.git 
+  git clone https://github.com/connaiconnai/configfile.git
   mv configfile/.vimrc ~/ 
   mv configfile/.tmux.conf ~/ 
   mv configfile/config.fish ~/.config/fish/ 
